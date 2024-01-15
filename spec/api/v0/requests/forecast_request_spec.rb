@@ -2,6 +2,9 @@ require 'rails_helper'
 
 RSpec.describe "Forecast", type: :request do
   before :each do
+    stub_mapquest
+    stub_weatherapi
+
     get "/api/v0/forecast?location=minneapolis,mn"
     expect(response).to be_successful
     @mpls_forecast = JSON.parse(response.body, symbolize_names: true)[:data]

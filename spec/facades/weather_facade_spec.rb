@@ -1,6 +1,10 @@
 require "rails_helper"
 
-RSpec.describe WeatherFacade do  
+RSpec.describe WeatherFacade do 
+   before :each do
+    stub_weatherapi
+   end
+
   it "can collect the current_weather attributes" do
     coordinates = "44.97902,-93.26494"
     current = WeatherFacade.new.get_current_weather(coordinates)
