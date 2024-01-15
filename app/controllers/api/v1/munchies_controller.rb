@@ -1,14 +1,10 @@
 class Api::V1::MunchiesController < Api::V0::ForecastsController
   def show
-    destination_city = pretty_destination
-
     coordinates = find_coordinates.split(",")
     coordinates = {lat: coordinates[0], lon: coordinates[1]}
 
-    restaurant = get_restaurant(coordinates, params[:food])
-    forecast = get_forecast
-
-    
+    munchie = create_munchie(coordinates)
+    render json: MunchieSerializer.new(munchie)
   end
   
   private
@@ -31,5 +27,13 @@ class Api::V1::MunchiesController < Api::V0::ForecastsController
   def get_forecast
     data = WeatherFacade.new.get_current_weather(find_coordinates)
     {summary: data[:condition], temperature: data[:temperature]}
+  end
+
+  def create_munchie(coordinates)
+    destination_city = pretty_destination
+    restaurant = get_restaurant(coordinates, params[:food])
+    forecast = get_forecast
+
+    Munchie.new(destination_city, restaurant, forecast)
   end
 end
