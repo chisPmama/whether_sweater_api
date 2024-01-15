@@ -3,6 +3,8 @@ class Api::V0::ForecastsController < ApplicationController
   def show
     coordinates = find_coordinates
     current_weather = get_current_weather(coordinates)
+    hourly_weather = get_hourly_weather(coordinates)
+    
     binding.pry
   end
 
@@ -24,5 +26,15 @@ class Api::V0::ForecastsController < ApplicationController
     data = JSON.parse(response.body, symbolize_names: true)[:current]
 
     CurrentWeather.new(data).to_hash
+  end
+
+  def get_hourly_weather(coordinates)
+    conn = Faraday.new(url: "http://api.weatherapi.com") do |faraday|
+      faraday.params["key"] = Rails.application.credentials.weatherapi[:key]
+    end
+    response = conn.get("/v1/forecast.json?q=#{coordinates}")
+    data = JSON.parse(response.body, symbolize_names: true)[:forecast][:forecastday].first
+
+    HourlyWeather.new(data).to_array
   end
 end
