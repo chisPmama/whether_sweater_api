@@ -17,12 +17,3 @@ class HourlyWeather
     @hourly_forecast
   end
 end
-
-# date: ,
-# sunrise: ,
-# sunset: ,
-# max_temp: ,
-# min_temp: ,
-# condition: ,
-# icon: ,
-# }

@@ -6,11 +6,6 @@ class Api::V0::ForecastsController < ApplicationController
   end
 
   private
-  def find_coordinates
-    location = params[:location]
-    CoordinateFacade.new.get_coordinates(location)
-  end
-
   def current_weather(coordinates)
     WeatherFacade.new.get_current_weather(coordinates)
   end
