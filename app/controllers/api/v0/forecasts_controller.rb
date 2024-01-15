@@ -2,11 +2,7 @@ class Api::V0::ForecastsController < ApplicationController
 
   def show
     coordinates = find_coordinates
-    current = get_current_weather(coordinates)
-    daily = get_daily_weather(coordinates)
-    hourly = get_hourly_weather(coordinates)
-
-    Forecast.new(current, daily, hourly)
+    @forecast = create_forecast(coordinates)
   end
 
   private 
@@ -46,5 +42,13 @@ class Api::V0::ForecastsController < ApplicationController
     response = conn.get("/v1/forecast.json?q=#{coordinates}&days=5") ## can use this same call for hourly_data to save API calls
     data = JSON.parse(response.body, symbolize_names: true)[:forecast][:forecastday]
     DailyWeather.new(data).to_array
+  end
+
+  def create_forecast(coordinates)
+    current = get_current_weather(coordinates)
+    daily = get_daily_weather(coordinates)
+    hourly = get_hourly_weather(coordinates)
+
+    Forecast.new(current, daily, hourly)
   end
 end
