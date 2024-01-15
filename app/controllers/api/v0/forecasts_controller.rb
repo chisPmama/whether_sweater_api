@@ -46,6 +46,7 @@ class Api::V0::ForecastsController < ApplicationController
     hourly = get_hourly_weather(coordinates)
 
     forecast = Forecast.new(current, daily, hourly)
-    render json: forecast.to_json
+    render json: 
+    ForecastSerializer.new(forecast)
   end
 end
