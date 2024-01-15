@@ -4,14 +4,14 @@ describe CoordinateService do
   context "instance methods" do
     context "#conn" do
       it "connects" do
-        service = WeatherService.new 
+        service = CoordinateService.new 
         expect(service.conn).to be_instance_of Faraday::Connection
       end
 
-      it "returns a hash for current_weather" do
-        coordinates = "44.97902,-93.26494"
-        search = WeatherService.new.find_weather(coordinates)
-        expect(result.status).to eq(200)
+      it "returns a string value of the coordinates" do
+        location = "minneapolis,mn"
+        search = CoordinateService.new .find_coordinates(location)
+        expect(search.first).to be_a String
       end
     end
   end
