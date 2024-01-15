@@ -7,8 +7,6 @@ class Api::V0::ForecastsController < ApplicationController
     hourly = get_hourly_weather(coordinates)
 
     Forecast.new(current, daily, hourly)
-
-    binding.pry
   end
 
   private 
