@@ -1,4 +1,6 @@
 class Restaurant
+  attr_reader :id, :name, :address, :rating, :reviews
+
   def initialize(data)
     @id = nil
     @name = data[:name]
