@@ -5,8 +5,7 @@ class ApplicationController < ActionController::API
       CoordinateFacade.new.get_coordinates(location)
     else
       destination = params[:destination]
-      coordinates = CoordinateFacade.new.get_coordinates(destination).split(",")
-      coordinates = {lat: coordinates[0], lon: coordinates[1]}
+      coordinates = CoordinateFacade.new.get_coordinates(destination)
     end
   end
 end

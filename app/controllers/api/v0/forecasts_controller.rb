@@ -5,11 +5,11 @@ class Api::V0::ForecastsController < ApplicationController
     render json: ForecastSerializer.new(forecast)
   end
 
-  private
   def current_weather(coordinates)
     WeatherFacade.new.get_current_weather(coordinates)
   end
 
+  private
   def hourly_weather(coordinates)
     WeatherFacade.new.get_hourly_weather(coordinates)
   end
