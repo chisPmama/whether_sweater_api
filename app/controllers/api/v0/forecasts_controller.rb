@@ -9,12 +9,6 @@ class Api::V0::ForecastsController < ApplicationController
     location = params[:location]
     @facade = CoordinateFacade.new
     @coordinates = @facade.get_coordinates(location)
-    # conn = Faraday.new(url: "https://www.mapquestapi.com") do |faraday|
-    #   faraday.params["key"] = Rails.application.credentials.mapquest[:key]
-    # end
-    # response = conn.get("/geocoding/v1/address?location=#{params[:location]}")
-    # data = JSON.parse(response.body, symbolize_names: true)[:results].first[:locations].first[:latLng]
-    # data.map{|k,v| v.to_s}.join(",")
   end
 
   def get_current_weather(coordinates)
