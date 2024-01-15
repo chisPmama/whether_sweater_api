@@ -1,6 +1,7 @@
-class Api::V1::MunchiesController < ApplicationController
+class Api::V1::MunchiesController < Api::V0::ForecastsController
   def show
     restaurant = get_restaurant(find_coordinates, params[:food])
+    
     binding.pry
   end
   
