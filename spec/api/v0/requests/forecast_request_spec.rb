@@ -8,7 +8,8 @@ RSpec.describe "Forecast", type: :request do
 
   describe "get forecast data based on the city and state inputted" do
     it 'can return a successful response that covers the first basic keys of id, type, and attributes' do
-      mpls_forecast = JSON.parse(response.body, symbolize_names: true)[:data]
+      binding.pry
+      mpls_forecast = JSON.parse(response.body, symbolize_names: true)
       expect(mpls_forecast).to have_key(:id)
       expect(mpls_forecast).to have_key(:type)
       expect(mpls_forecast[:type]).to eq("forecast")

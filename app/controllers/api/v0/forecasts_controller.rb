@@ -1,5 +1,4 @@
 class Api::V0::ForecastsController < ApplicationController
-
   def show
     coordinates = find_coordinates
     @forecast = create_forecast(coordinates)
@@ -7,12 +6,15 @@ class Api::V0::ForecastsController < ApplicationController
 
   private 
   def find_coordinates
-    conn = Faraday.new(url: "https://www.mapquestapi.com") do |faraday|
-      faraday.params["key"] = Rails.application.credentials.mapquest[:key]
-    end
-    response = conn.get("/geocoding/v1/address?location=#{params[:location]}")
-    data = JSON.parse(response.body, symbolize_names: true)[:results].first[:locations].first[:latLng]
-    data.map{|k,v| v.to_s}.join(",")
+    location = params[:location]
+    @facade = CoordinateFacade.new
+    @coordinates = @facade.get_coordinates(location)
+    # conn = Faraday.new(url: "https://www.mapquestapi.com") do |faraday|
+    #   faraday.params["key"] = Rails.application.credentials.mapquest[:key]
+    # end
+    # response = conn.get("/geocoding/v1/address?location=#{params[:location]}")
+    # data = JSON.parse(response.body, symbolize_names: true)[:results].first[:locations].first[:latLng]
+    # data.map{|k,v| v.to_s}.join(",")
   end
 
   def get_current_weather(coordinates)
@@ -49,6 +51,7 @@ class Api::V0::ForecastsController < ApplicationController
     daily = get_daily_weather(coordinates)
     hourly = get_hourly_weather(coordinates)
 
-    Forecast.new(current, daily, hourly)
+    forecast = Forecast.new(current, daily, hourly)
+    render json: forecast.to_json
   end
 end
