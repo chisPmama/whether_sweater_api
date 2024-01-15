@@ -26,7 +26,7 @@ class Api::V1::MunchiesController < Api::V0::ForecastsController
 
   def get_forecast
     data = WeatherFacade.new.get_current_weather(find_coordinates)
-    {summary: data[:condition], temperature: data[:temperature]}
+    {summary: data[:condition], temperature: data[:temperature].to_s}
   end
 
   def create_munchie(coordinates)
