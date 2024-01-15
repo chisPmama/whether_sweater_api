@@ -1,5 +1,4 @@
 class HourlyWeather
-  attr_reader :hourly_forecast
 
   def initialize(data)
     @id = nil

@@ -1,6 +1,4 @@
 class CurrentWeather
-  attr_reader :id, :last_updated, :temperature, :feels_like, :humidity, :uvi, :visibility, :condition, :icon
-
   def initialize(data)
     @id = nil
     @last_updated = data[:last_updated]
