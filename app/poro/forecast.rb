@@ -5,7 +5,7 @@ class Forecast
     @id = nil
     @current_weather = current
     @daily_weather = daily
-    @hourly = hourly
+    @hourly_weather = hourly
   end
   
 end

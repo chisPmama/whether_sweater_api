@@ -22,7 +22,7 @@ RSpec.describe "Forecast", type: :request do
     end
 
     it 'contains current_weather as an attribute that holds the last_updated etc info' do
-      current = @mpls_forecast[:attributes][:current_weather]
+      current = @attributes[:current_weather]
       
       expect(current).to be_a(Hash)
 
@@ -53,7 +53,7 @@ RSpec.describe "Forecast", type: :request do
 
 
     it 'contains daily_weather as an attribute that is an array of the next 5 days of data' do
-      daily = @mpls_forecast[:attributes][:daily_weather]
+      daily = @attributes[:daily_weather]
       expect(daily).to be_an(Array)
       expect(daily.length).to eq(5)
 
@@ -81,8 +81,24 @@ RSpec.describe "Forecast", type: :request do
       end
     end
 
-    xit 'contains hourly_weather as an attribute that is an array of all 24 hours of hourly data for the current day' do
+    it 'contains hourly_weather as an attribute that is an array of all 24 hours of hourly data for the current day' do
+      hourly = @attributes[:hourly_weather]
+      expect(hourly).to be_an(Array)
+      expect(hourly.length).to eq(24)
 
+      hourly.each do |hour|
+        expect(hour).to have_key(:time)
+        expect(hour[:time]).to be_a(String)
+
+        expect(hour).to have_key(:temperature)
+        expect(hour[:temperature]).to be_a(Float)
+
+        expect(hour).to have_key(:conditions)
+        expect(hour[:conditions]).to be_a(String)
+
+        expect(hour).to have_key(:icon)
+        expect(hour[:icon]).to be_a(String)
+      end
     end
   end
 
