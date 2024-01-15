@@ -22,6 +22,7 @@ RSpec.describe "Forecast", type: :request do
     it "has three attributes of daily, hourly, and current weather" do
       expect(@attributes).to have_key(:daily_weather)
       expect(@attributes).to have_key(:hourly_weather)
+      expect(@attributes).to have_key(:current_weather)
     end
 
     it 'contains current_weather as an attribute that holds the last_updated etc info' do
@@ -52,8 +53,11 @@ RSpec.describe "Forecast", type: :request do
 
       expect(current).to have_key(:icon)
       expect(current[:icon]).to be_a(String)
-    end
 
+      expect(current).not_to have_key(:time)
+      expect(current).not_to have_key(:max_temp)
+      expect(current).not_to have_key(:min_temp)
+    end
 
     it 'contains daily_weather as an attribute that is an array of the next 5 days of data' do
       daily = @attributes[:daily_weather]
@@ -81,6 +85,10 @@ RSpec.describe "Forecast", type: :request do
 
         expect(day).to have_key(:icon)
         expect(day[:icon]).to be_a(String)
+
+        expect(day).not_to have_key(:last_updated)
+        expect(day).not_to have_key(:uvi)
+        expect(day).not_to have_key(:conditions)
       end
     end
 
@@ -101,6 +109,10 @@ RSpec.describe "Forecast", type: :request do
 
         expect(hour).to have_key(:icon)
         expect(hour[:icon]).to be_a(String)
+
+        expect(hour).not_to have_key(:humidity)
+        expect(hour).not_to have_key(:date)
+        expect(hour).not_to have_key(:condition)
       end
     end
   end
