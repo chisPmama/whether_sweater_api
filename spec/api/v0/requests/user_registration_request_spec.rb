@@ -22,17 +22,17 @@ RSpec.describe "Create a New User", type: :request do
       expect(@result).to be_a(Hash)
       expect(@result).to have_key(:id)
       expect(@result).to have_key(:type)
-      expect(@result[:type]).to eq("users")
+      expect(@result[:type]).to eq("user")
       expect(@result).to have_key(:attributes)
     end
 
-    xit 'attributes contain e-mail and a custom API key for that user' do
+    it 'attributes contain e-mail and a custom API key for that user' do
       expect(@attributes).to have_key(:email)
-      expect(@result).to be_a(String)
+      expect(@attributes[:email]).to be_a(String)
 
       expect(@attributes).to have_key(:api_key)
-      expect(@result).to be_a(String)
-      
+      expect(@attributes[:api_key]).to be_a(String)
+
       expect(@attributes).to_not have_key(:password)
     end
 
