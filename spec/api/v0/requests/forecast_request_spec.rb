@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe "Forecast", type: :request do
+RSpec.describe "Collect Forecast", type: :request do
   before :each do
     stub_mapquest
     stub_weatherapi
