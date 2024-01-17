@@ -7,7 +7,6 @@ class Api::V0::RoadTripsController < Api::V0::ForecastsController
 
     @facade = RoadTripFacade.new
     @road_trip = @facade.get_road_trip(origin, destination)
-    return error_response("Unable to route with given locations.", 402) if @road_trip.nil? 
 
     render json: RoadTripSerializer.new(@road_trip)
   end

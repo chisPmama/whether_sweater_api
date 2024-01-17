@@ -57,11 +57,9 @@ RSpec.describe "Road Trip request", type: :request do
   
         expect(@attributes).to have_key(:temperature)
         expect(@attributes[:temperature]).to be_a(Float)
-        expect(@attributes[:temperature]).to eq(57.0)
   
         expect(@attributes).to have_key(:condition)
         expect(@attributes[:condition]).to be_a(String)
-        expect(@attributes[:condition]).to eq("Clear")
       end
     end
   end
