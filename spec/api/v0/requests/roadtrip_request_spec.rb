@@ -27,10 +27,10 @@ RSpec.describe "Road Trip request", type: :request do
 
     describe "get roadtrip information on the two locations" do
       it 'can return a successful response that covers the first basic keys of id, type, and attributes' do
-        expect(@mpls_forecast).to have_key(:id)
-        expect(@mpls_forecast).to have_key(:type)
-        expect(@mpls_forecast[:type]).to eq("road_trip")
-        expect(@mpls_forecast).to have_key(:attributes)
+        expect(@result).to have_key(:id)
+        expect(@result).to have_key(:type)
+        expect(@result[:type]).to eq("road_trip")
+        expect(@result).to have_key(:attributes)
       end
 
       xit 'attributes contain specfic keys regarding roadtrip' do

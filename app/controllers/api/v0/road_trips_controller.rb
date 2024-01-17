@@ -28,7 +28,6 @@ class Api::V0::RoadTripsController < Api::V0::ForecastsController
     weather_at_eta = find_weather_at_eta(travel_time, calculate_eta(travel_sec), dest_coordinates)
 
     roadtrip = RoadTrip.new(start_city, end_city, travel_time, weather_at_eta)
-    binding.pry
     render json: RoadTripSerializer.new(roadtrip)
   end
 
