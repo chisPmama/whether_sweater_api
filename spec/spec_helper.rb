@@ -5,7 +5,7 @@ def instantiate_users
 end
 
 def instantiate_chisP
-  User.create({ "email": "chisPwants2code@goodgirl.com",
+  @chisP = User.create({ "email": "chisPwants2code@goodgirl.com",
                 "password": "dogeatworld",
                 "password_confirmation": "dogeatworld"})
 end
