@@ -33,7 +33,7 @@ RSpec.describe "Road Trip request", type: :request do
         expect(@result).to have_key(:attributes)
       end
 
-      xit 'attributes contain specfic keys regarding roadtrip' do
+      it 'attributes contain specfic keys regarding roadtrip' do
         expect(@attributes).to have_key(:start_city)
         expect(@attributes[:start_city]).to be_a(String)
         expect(@attributes[:start_city]).to eq("Minneapolis, MN")
@@ -50,18 +50,19 @@ RSpec.describe "Road Trip request", type: :request do
         expect(@attributes[:weather_at_eta]).to be_a(Hash)
       end
 
-      xit 'weather_at_eta has specific information at the time of arrival' do
+      it 'weather_at_eta has specific information at the time of arrival' do
+        @attributes = @attributes[:weather_at_eta]
         expect(@attributes).to have_key(:datetime)
         expect(@attributes[:datetime]).to be_a(String)
-        # expect(@attributes[:datetime]).to eq("Minneapolis, MN")
+        expect(@attributes[:datetime]).to eq("2024-01-17 23:22")
   
         expect(@attributes).to have_key(:temperature)
         expect(@attributes[:temperature]).to be_a(Float)
-        # expect(@attributes[:temperature]).to eq("El Paso, TX")
+        expect(@attributes[:temperature]).to eq(57.0)
   
         expect(@attributes).to have_key(:condition)
         expect(@attributes[:condition]).to be_a(String)
-        # expect(@attributes[:condition]).to eq("20:03:03")
+        expect(@attributes[:condition]).to eq("Clear")
       end
     end
   end
