@@ -4,6 +4,12 @@ def instantiate_users
   User.create({email: "baba@def.com", password: "123", password_confirmation: "123"})
 end
 
+def instantiate_chisP
+  User.create({ "email": "chisPwants2code@goodgirl.com",
+                "password": "dogeatworld",
+                "password_confirmation": "dogeatworld"})
+end
+
 def stub_mapquest
   json_response = File.read('spec/fixtures/mpls_mn_coord.json')
   stub_request(:get, "https://www.mapquestapi.com/geocoding/v1/address?key=#{Rails.application.credentials.mapquest[:key]}&location=minneapolis,mn").

@@ -1,6 +1,5 @@
 class Api::V0::UsersController < ApplicationController
   def create
-    # binding.pry
     if params[:email].blank?
       error_response("E-mail cannot be blank.", 422)
     elsif params[:password].blank? || params[:password_confirmation].blank?
@@ -10,6 +9,14 @@ class Api::V0::UsersController < ApplicationController
     else
       user = User.create!(user_params)
       render json: UsersSerializer.new(user), status: :created
+    end
+  end
+
+  def login
+    user = User.find_by(email: params[:email])
+    if user.authenticate(params[:password])
+      session[:user_id] = user.id
+      render json: UsersSerializer.new(user), status: 200
     end
   end
 

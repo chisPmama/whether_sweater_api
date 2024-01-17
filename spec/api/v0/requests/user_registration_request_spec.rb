@@ -139,4 +139,28 @@ RSpec.describe "Create a New User", type: :request do
       expect(data[:errors].first[:detail]).to eq("Missing password entry.")
     end
   end
+
+  describe 'User cannot create an account if email already exists' do
+    it 'sends a JSON with the status of a 422 as well as an error message' do
+      user_info = {
+                  "email": "chisPwants2code@goodgirl.com",
+                  "password": "",
+                  "password_confirmation": "dogeatworld"
+                }
+  
+      post "/api/v0/users", params: user_info
+  
+      expect(response).to_not be_successful
+      expect(response.status).to eq(422)
+
+      expect(response).to_not be_successful
+      expect(response.status).to eq(422)
+
+      data = JSON.parse(response.body, symbolize_names: true)
+
+      expect(data[:errors]).to be_a(Array)
+      expect(data[:errors].first[:status]).to eq("422")
+      expect(data[:errors].first[:detail]).to eq("Missing password entry.")
+    end
+  end
 end
