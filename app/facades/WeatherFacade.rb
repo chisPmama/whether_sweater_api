@@ -14,6 +14,10 @@ class WeatherFacade
 	def get_daily_weather(coordinates)
 		daily_json(@service.find_weather(coordinates))
 	end
+
+	def get_eta_weather(travel_time, datetime, coordinates)
+		eta_json(travel_time, datetime, @service.find_weather(coordinates))
+	end
  
 	private
 
@@ -34,5 +38,10 @@ class WeatherFacade
   def daily_json(data)
     data = json_parse(data)[:forecast][:forecastday]
 		DailyWeather.new(data).to_array
+	end
+
+	def eta_json(travel_time, datetime, data)
+		data = json_parse(data)[:forecast][:forecastday]
+		EtaWeather.new(data, travel_time, datetime).to_hash
 	end
 end

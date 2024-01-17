@@ -1,0 +1,54 @@
+{
+  "info": {
+      "statuscode": 0,
+      "copyright": {
+          "text": "© 2024 MapQuest, Inc.",
+          "imageUrl": "http://api.mqcdn.com/res/mqlogo.gif",
+          "imageAltText": "© 2024 MapQuest, Inc."
+      },
+      "messages": []
+  },
+  "options": {
+      "maxResults": -1,
+      "ignoreLatLngInput": false
+  },
+  "results": [
+      {
+          "providedLocation": {
+              "location": "El Paso, TX"
+          },
+          "locations": [
+              {
+                  "street": "",
+                  "adminArea6": "",
+                  "adminArea6Type": "Neighborhood",
+                  "adminArea5": "El Paso",
+                  "adminArea5Type": "City",
+                  "adminArea4": "El Paso",
+                  "adminArea4Type": "County",
+                  "adminArea3": "TX",
+                  "adminArea3Type": "State",
+                  "adminArea1": "US",
+                  "adminArea1Type": "Country",
+                  "postalCode": "",
+                  "geocodeQualityCode": "A5XAX",
+                  "geocodeQuality": "CITY",
+                  "dragPoint": false,
+                  "sideOfStreet": "N",
+                  "linkId": "0",
+                  "unknownInput": "",
+                  "type": "s",
+                  "latLng": {
+                      "lat": 31.75916,
+                      "lng": -106.48749
+                  },
+                  "displayLatLng": {
+                      "lat": 31.75916,
+                      "lng": -106.48749
+                  },
+                  "mapUrl": ""
+              }
+          ]
+      }
+  ]
+}

@@ -1,15 +1,12 @@
 class Api::V0::ForecastsController < ApplicationController
   def show
-    coordinates = find_coordinates
+    location = params[:location]
+    coordinates = find_coordinates(location)
     forecast = create_forecast(coordinates)
     render json: ForecastSerializer.new(forecast)
   end
 
   private
-  def find_coordinates
-    location = params[:location]
-    CoordinateFacade.new.get_coordinates(location)
-  end
 
   def current_weather(coordinates)
     WeatherFacade.new.get_current_weather(coordinates)

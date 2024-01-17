@@ -7,6 +7,8 @@ RSpec.describe "Road Trip request", type: :request do
       instantiate_chisP
       login_chisP
       stub_directions
+      stub_elp_coordinates
+      stub_elp_forecast
 
       road_trip_params = {
                           "origin": "Minneapolis,MN",

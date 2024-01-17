@@ -1,4 +1,4 @@
-class Api::V0::RoadTripsController < ApplicationController
+class Api::V0::RoadTripsController < Api::V0::ForecastsController
   before_action :authenticate_user
 
   def create
@@ -20,15 +20,16 @@ class Api::V0::RoadTripsController < ApplicationController
     start_city = pretty_city(params[:origin])
     end_city = pretty_city(params[:destination])
     travel_time = data[:formattedTime]
-    calc_trav_sec = data[:time].to_f
+
+    travel_sec = data[:time]
+    dest_coordinates = find_coordinates(end_city)
 
     ## impossible route possibility
-    datetime = calculate_eta(calc_trav_sec)
-    temperature = find_weather_at_eta(travel_time)
+    weather_at_eta = find_weather_at_eta(travel_time, calculate_eta(travel_sec), dest_coordinates)
+
+    roadtrip = RoadTrip.new(start_city, end_city, travel_time, weather_at_eta)
     binding.pry
-    # coordinates = find_coordinates
-    # forecast = create_forecast(coordinates)
-    # render json: ForecastSerializer.new(forecast)
+    render json: RoadTripSerializer.new(roadtrip)
   end
 
   private
@@ -54,7 +55,7 @@ class Api::V0::RoadTripsController < ApplicationController
     pretty_eta = eta.strftime("%Y-%m-%d %H:%M")
   end
 
-  def find_weather_at_eta(travel_time)
-
+  def find_weather_at_eta(travel_time, datetime, dest_coordinates)
+    WeatherFacade.new.get_eta_weather(travel_time, datetime, dest_coordinates)
   end
 end

@@ -19,6 +19,18 @@ def login_chisP
   post "/api/v0/sessions", params: user_info
 end
 
+def stub_elp_coordinates
+  json_response = File.read('spec/fixtures/el_paso_coordinates.json')
+  stub_request(:get, "https://www.mapquestapi.com/geocoding/v1/address?key=#{Rails.application.credentials.mapquest[:key]}&location=El%20Paso,%20TX").
+  with(
+    headers: {
+          'Accept'=>'*/*',
+          'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
+          'User-Agent'=>'Faraday v2.9.0'
+    }).
+  to_return(status: 200, body: json_response, headers: {})
+end
+
 def stub_mapquest
   json_response = File.read('spec/fixtures/mpls_mn_coord.json')
   stub_request(:get, "https://www.mapquestapi.com/geocoding/v1/address?key=#{Rails.application.credentials.mapquest[:key]}&location=minneapolis,mn").
@@ -54,6 +66,18 @@ def stub_directions
    'User-Agent'=>'Faraday v2.9.0'
     }).
   to_return(status: 200, body: json_response, headers: {})
+end
+
+def stub_elp_forecast
+  json_response = File.read('spec/fixtures/el_paso_5_day_forecast.json')
+  stub_request(:get, "http://api.weatherapi.com/v1/forecast.json?days=5&key=#{Rails.application.credentials.weatherapi[:key]}&q=31.75916,-106.48749").
+    with(
+      headers: {
+            'Accept'=>'*/*',
+            'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
+            'User-Agent'=>'Faraday v2.9.0'
+      }).
+    to_return(status: 200, body: json_response, headers: {})
 end
 
 RSpec.configure do |config|
