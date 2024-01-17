@@ -7,14 +7,22 @@ class Api::V0::RoadTripsController < Api::V0::ForecastsController
 
     @facade = RoadTripFacade.new
     @road_trip = @facade.get_road_trip(origin, destination)
+    return error_response("Unable to route with given locations.", 402) if @road_trip.nil? 
 
     render json: RoadTripSerializer.new(@road_trip)
   end
 
   private
   def authenticate_user
-    user = User.find_by(api_key: params[:api_key])
-    return error_response("Invalid API key.", 422) unless user.id == session[:user_id]
+    if params[:api_key].blank?
+      return error_response("API key needed.", 401)
+    else
+      user = User.find_by(api_key: params[:api_key])
+      return error_response("Invalid API key.", 401) if user.nil?
+      return error_response("Invalid API key.", 401) unless user.id == session[:user_id]
+    end
+    # user = User.find_by(api_key: params[:api_key])
+    # return error_response("Invalid API key.", 401) unless user.id == session[:user_id]
   end
 
   def calculate_eta(travel_sec)
