@@ -1,8 +1,9 @@
 class Api::V0::UsersController < ApplicationController
   def create
-    if !params[:email]
+    # binding.pry
+    if params[:email].blank?
       error_response("E-mail cannot be blank.", 422)
-    elsif !params[:password] || !params[:password_confirmation]
+    elsif params[:password].blank? || params[:password_confirmation].blank?
       error_response("Missing password entry.", 422)
     elsif params[:password] != params[:password_confirmation]
       error_response("Password and password confirmation do not match.", 422)

@@ -56,7 +56,7 @@ RSpec.describe "Create a New User", type: :request do
       expect(response.status).to eq(422)
     end
 
-    it 'sends a JSON with the status of a 404 as well as an error message' do
+    it 'sends a JSON with the status of a 422 as well as an error message' do
       expect(response).to_not be_successful
       expect(response.status).to eq(422)
 
@@ -68,4 +68,75 @@ RSpec.describe "Create a New User", type: :request do
     end
   end
 
+  describe 'User cannot create an account without the email' do
+    before :each do
+      user_info = {
+                  "email": "",
+                  "password": "dogeatworld",
+                  "password_confirmation": "dogeatworld"
+                }
+  
+      post "/api/v0/users", params: user_info
+  
+      expect(response).to_not be_successful
+      expect(response.status).to eq(422)
+    end
+
+    it 'sends a JSON with the status of a 422 as well as an error message' do
+      expect(response).to_not be_successful
+      expect(response.status).to eq(422)
+
+      data = JSON.parse(response.body, symbolize_names: true)
+
+      expect(data[:errors]).to be_a(Array)
+      expect(data[:errors].first[:status]).to eq("422")
+      expect(data[:errors].first[:detail]).to eq("E-mail cannot be blank.")
+    end
+  end
+
+  describe 'User cannot create an account without one of the passwords' do
+    it 'sends a JSON with the status of a 422 as well as an error message' do
+      user_info = {
+                  "email": "chisPwants2code@goodgirl.com",
+                  "password": "",
+                  "password_confirmation": "dogeatworld"
+                }
+  
+      post "/api/v0/users", params: user_info
+  
+      expect(response).to_not be_successful
+      expect(response.status).to eq(422)
+
+      expect(response).to_not be_successful
+      expect(response.status).to eq(422)
+
+      data = JSON.parse(response.body, symbolize_names: true)
+
+      expect(data[:errors]).to be_a(Array)
+      expect(data[:errors].first[:status]).to eq("422")
+      expect(data[:errors].first[:detail]).to eq("Missing password entry.")
+    end
+
+    it 'sends a JSON with the status of a 422 as well as an error message' do
+      user_info = {
+                  "email": "chisPwants2code@goodgirl.com",
+                  "password": "dogeatworld",
+                  "password_confirmation": ""
+                }
+  
+      post "/api/v0/users", params: user_info
+  
+      expect(response).to_not be_successful
+      expect(response.status).to eq(422)
+
+      expect(response).to_not be_successful
+      expect(response.status).to eq(422)
+
+      data = JSON.parse(response.body, symbolize_names: true)
+
+      expect(data[:errors]).to be_a(Array)
+      expect(data[:errors].first[:status]).to eq("422")
+      expect(data[:errors].first[:detail]).to eq("Missing password entry.")
+    end
+  end
 end

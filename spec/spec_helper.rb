@@ -1,3 +1,9 @@
+def instantiate_users
+  User.create({email: "abc@def.com", password: "123", password_confirmation: "123"})
+  User.create({email: "mama@def.com", password: "123", password_confirmation: "123"})
+  User.create({email: "baba@def.com", password: "123", password_confirmation: "123"})
+end
+
 def stub_mapquest
   json_response = File.read('spec/fixtures/mpls_mn_coord.json')
   stub_request(:get, "https://www.mapquestapi.com/geocoding/v1/address?key=#{Rails.application.credentials.mapquest[:key]}&location=minneapolis,mn").
