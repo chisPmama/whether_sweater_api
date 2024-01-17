@@ -14,9 +14,11 @@ class Api::V0::UsersController < ApplicationController
 
   def login
     user = User.find_by(email: params[:email])
-    if user.authenticate(params[:password])
+    if user && user.authenticate(params[:password])
       session[:user_id] = user.id
       render json: UsersSerializer.new(user), status: 200
+    else
+      error_response("Invalid email or password.", 422)
     end
   end
 

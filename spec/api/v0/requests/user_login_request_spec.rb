@@ -55,12 +55,12 @@ RSpec.describe "Login a User", type: :request do
       expect(response).to_not be_successful
       expect(response.status).to eq(422)
   
-      @result = JSON.parse(response.body, symbolize_names: true)
+      @result = JSON.parse(response.body, symbolize_names: true)[:errors]
     end
 
     it 'sends a JSON with the status of a 422 as well as an error message' do
       expect(@result).to be_a(Array)
-      expect(@result).first[:status]).to eq("422")
+      expect(@result.first[:status]).to eq("422")
       expect(@result.first[:detail]).to eq("Invalid email or password.")
     end
   end
