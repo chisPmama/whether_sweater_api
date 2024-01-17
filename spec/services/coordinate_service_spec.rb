@@ -9,9 +9,10 @@ describe CoordinateService do
       end
 
       it "returns a string value of the coordinates" do
+        stub_mapquest
         location = "minneapolis,mn"
-        search = CoordinateService.new .find_coordinates(location)
-        expect(search.first).to be_a String
+        search = CoordinateService.new.find_coordinates(location)
+        expect(search.status).to eq(200)
       end
     end
   end

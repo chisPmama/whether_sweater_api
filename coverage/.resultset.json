@@ -838,13 +838,13 @@
           null,
           1,
           1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
           null,
           null
         ]
@@ -853,6 +853,7 @@
         "lines": [
           1,
           1,
+          1,
           7,
           7,
           7,
@@ -874,76 +875,6 @@
           null,
           null,
           null,
-          null,
-          null
-        ]
-      },
-      "/Users/sleazypete/turing_work/3mod/projects/whether_sweater/whether_sweater/spec/poros/daily_weather_poro_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          0,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          null
-        ]
-      },
-      "/Users/sleazypete/turing_work/3mod/projects/whether_sweater/whether_sweater/app/poro/daily_weather.rb": {
-        "lines": [
-          1,
-          1,
-          6,
-          6,
-          6,
-          6,
-          30,
-          30,
-          30,
-          30,
-          30,
-          30,
-          30,
-          30,
-          null,
-          null,
-          null,
-          1,
-          6,
           null,
           null
         ]
@@ -963,7 +894,8 @@
           1,
           1,
           1,
-          0,
+          1,
+          1,
           null,
           null,
           null,
@@ -1067,6 +999,31 @@
           null,
           1,
           8,
+          null,
+          null
+        ]
+      },
+      "/Users/sleazypete/turing_work/3mod/projects/whether_sweater/whether_sweater/app/poro/daily_weather.rb": {
+        "lines": [
+          1,
+          1,
+          6,
+          6,
+          6,
+          6,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          null,
+          null,
+          null,
+          1,
+          6,
           null,
           null
         ]
@@ -1398,6 +1355,6 @@
         ]
       }
     },
-    "timestamp": 1705488926
+    "timestamp": 1705489749
   }
 }
