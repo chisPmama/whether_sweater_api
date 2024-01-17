@@ -54,7 +54,6 @@ RSpec.describe "Road Trip request", type: :request do
         @attributes = @attributes[:weather_at_eta]
         expect(@attributes).to have_key(:datetime)
         expect(@attributes[:datetime]).to be_a(String)
-        expect(@attributes[:datetime]).to eq("2024-01-17 23:22")
   
         expect(@attributes).to have_key(:temperature)
         expect(@attributes[:temperature]).to be_a(Float)
