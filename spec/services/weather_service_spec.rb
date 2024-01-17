@@ -9,9 +9,10 @@ describe WeatherService do
       end
 
       it "has a successful connection" do
+        stub_weatherapi
         coordinates = "44.97902,-93.26494"
         search = WeatherService.new.find_weather(coordinates)
-        expect(result.status).to eq(200)
+        expect(search.status).to eq(200)
       end
     end
   end
