@@ -1,3 +1,6 @@
+require 'simplecov'
+SimpleCov.start
+
 def instantiate_users
   User.create({email: "abc@def.com", password: "123", password_confirmation: "123"})
   User.create({email: "mama@def.com", password: "123", password_confirmation: "123"})
