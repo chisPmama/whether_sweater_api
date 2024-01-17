@@ -5,6 +5,8 @@ RSpec.describe "Road Trip request", type: :request do
   describe "JSON Road Trip Return with travel information" do
     before :each do
       instantiate_chisP
+      login_chisP
+      stub_directions
 
       road_trip_params = {
                           "origin": "Minneapolis,MN",

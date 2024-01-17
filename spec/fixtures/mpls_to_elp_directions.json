@@ -1,0 +1,1304 @@
+{
+  "route": {
+      "sessionId": "AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car",
+      "realTime": 73969,
+      "distance": 1376.7535,
+      "time": 72183,
+      "formattedTime": "20:03:03",
+      "hasHighway": true,
+      "hasTollRoad": true,
+      "hasBridge": true,
+      "hasSeasonalClosure": false,
+      "hasTunnel": false,
+      "hasFerry": false,
+      "hasUnpaved": false,
+      "hasTimedRestriction": false,
+      "hasCountryCross": false,
+      "legs": [
+          {
+              "index": 0,
+              "hasTollRoad": true,
+              "hasHighway": true,
+              "hasBridge": true,
+              "hasUnpaved": false,
+              "hasTunnel": false,
+              "hasSeasonalClosure": false,
+              "hasFerry": false,
+              "hasCountryCross": false,
+              "hasTimedRestriction": false,
+              "distance": 1376.7535,
+              "time": 73969,
+              "formattedTime": "20:32:49",
+              "origIndex": 0,
+              "origNarrative": "",
+              "destIndex": 0,
+              "destNarrative": "",
+              "maneuvers": [
+                  {
+                      "index": 0,
+                      "distance": 0.0789,
+                      "narrative": "Head toward S 4th St on S 3rd Ave. Go for 417 ft.",
+                      "time": 23,
+                      "direction": 6,
+                      "directionName": "Southwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:00:23",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 44.97902,
+                          "lng": -93.26494
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "S 3rd Ave",
+                          "3rd Ave S"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=44.97902,-93.26494|marker-1||44.97803,-93.26571|marker-2||&center=44.978525,-93.26532499999999&defaultMarker=none&zoom=16&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 1,
+                      "distance": 0.0771,
+                      "narrative": "Turn left onto S 4th St. Go for 407 ft.",
+                      "time": 24,
+                      "direction": 8,
+                      "directionName": "East",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:00:24",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 44.97803,
+                          "lng": -93.26571
+                      },
+                      "turnType": 6,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "S 4th St",
+                          "4th St S"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=44.97803,-93.26571|marker-2||44.97748,-93.26434|marker-3||&center=44.977755,-93.26502500000001&defaultMarker=none&zoom=16&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 2,
+                      "distance": 0.4673,
+                      "narrative": "Turn right onto S 4th Ave toward I-35W S. Go for 0.5 mi.",
+                      "time": 99,
+                      "direction": 6,
+                      "directionName": "Southwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:01:39",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 44.97748,
+                          "lng": -93.26434
+                      },
+                      "turnType": 2,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "S 4th Ave",
+                          "4th Ave S"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=44.97748,-93.26434|marker-3||44.97165000000001,-93.26918|marker-4||&center=44.974565000000005,-93.26676&defaultMarker=none&zoom=14&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 3,
+                      "distance": 0.7842,
+                      "narrative": "Turn slightly left and take ramp onto MN-65 S toward I-35W S. Go for 0.8 mi.",
+                      "time": 63,
+                      "direction": 4,
+                      "directionName": "South",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:01:03",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 44.97165000000001,
+                          "lng": -93.26918
+                      },
+                      "turnType": 13,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "MN-65"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=44.97165000000001,-93.26918|marker-4||44.960380000000015,-93.26970999999999|marker-5||&center=44.96601500000001,-93.26944499999999&defaultMarker=none&zoom=13&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 4,
+                      "distance": 16.8684,
+                      "narrative": "Continue on I-35W S. Go for 16.9 mi.",
+                      "time": 1025,
+                      "direction": 4,
+                      "directionName": "South",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:17:05",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 44.960380000000015,
+                          "lng": -93.26970999999999
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-35W"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=44.960380000000015,-93.26970999999999|marker-5||44.73154999999993,-93.28333999999994|marker-6||&center=44.84596499999997,-93.27652499999996&defaultMarker=none&zoom=9&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 5,
+                      "distance": 87.9172,
+                      "narrative": "Continue on I-35 S. Go for 87.9 mi.",
+                      "time": 4494,
+                      "direction": 4,
+                      "directionName": "South",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "01:14:54",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 44.73154999999993,
+                          "lng": -93.28333999999994
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-35"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=44.73154999999993,-93.28333999999994|marker-6||43.49955000000001,-93.35373999999995|marker-7||&center=44.11554999999997,-93.31853999999994&defaultMarker=none&zoom=6&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 6,
+                      "distance": 131.128,
+                      "narrative": "Continue on I-35 S. Go for 131 mi.",
+                      "time": 6383,
+                      "direction": 4,
+                      "directionName": "South",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "01:46:23",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 43.49955000000001,
+                          "lng": -93.35373999999995
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-35",
+                          "IA-27",
+                          "US-18"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=43.49955000000001,-93.35373999999995|marker-7||41.65863999999995,-93.57578000000007|marker-8||&center=42.57909499999998,-93.46476000000001&defaultMarker=none&zoom=6&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 7,
+                      "distance": 0.2821,
+                      "narrative": "Take the exit toward I-35 S/I-80. Go for 0.3 mi.",
+                      "time": 16,
+                      "direction": 4,
+                      "directionName": "South",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:00:16",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 41.65863999999995,
+                          "lng": -93.57578000000007
+                      },
+                      "turnType": 14,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-35"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=41.65863999999995,-93.57578000000007|marker-8||41.654669999999946,-93.57672000000005|marker-9||&center=41.656654999999944,-93.57625000000006&defaultMarker=none&zoom=14&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 8,
+                      "distance": 13.9709,
+                      "narrative": "Keep right onto I-35 S toward I-80 W. Go for 14.0 mi.",
+                      "time": 720,
+                      "direction": 7,
+                      "directionName": "West",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:12:00",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 41.654669999999946,
+                          "lng": -93.57672000000005
+                      },
+                      "turnType": 16,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-35",
+                          "I-80"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=41.654669999999946,-93.57672000000005|marker-9||41.59708999999991,-93.77721999999999|marker-10||&center=41.625879999999924,-93.67697000000001&defaultMarker=none&zoom=9&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 9,
+                      "distance": 73.108,
+                      "narrative": "Continue on I-35 S toward Kansas City. Go for 73.1 mi.",
+                      "time": 3572,
+                      "direction": 4,
+                      "directionName": "South",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:59:32",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 41.59708999999991,
+                          "lng": -93.77721999999999
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-35"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=41.59708999999991,-93.77721999999999|marker-10||40.575219999999845,-93.93760000000024|marker-11||&center=41.08615499999988,-93.85741000000012&defaultMarker=none&zoom=6&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 10,
+                      "distance": 105.6412,
+                      "narrative": "Continue on I-35 S. Go for 106 mi.",
+                      "time": 5220,
+                      "direction": 6,
+                      "directionName": "Southwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "01:27:00",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 40.575219999999845,
+                          "lng": -93.93760000000024
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-35",
+                          "Chicago-Kansas City Expy",
+                          "MO-110",
+                          "US-69"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=40.575219999999845,-93.93760000000024|marker-11||39.172229999999914,-94.55425000000054|marker-12||&center=39.87372499999988,-94.2459250000004&defaultMarker=none&zoom=6&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 11,
+                      "distance": 3.4293,
+                      "narrative": "Take exit 8B toward K C I Airport onto I-29 N. Go for 3.4 mi.",
+                      "time": 204,
+                      "direction": 7,
+                      "directionName": "West",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:03:24",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 39.172229999999914,
+                          "lng": -94.55425000000054
+                      },
+                      "turnType": 14,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-29",
+                          "US-71"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=39.172229999999914,-94.55425000000054|marker-12||39.189919999999965,-94.61093000000055|marker-13||&center=39.181074999999936,-94.58259000000055&defaultMarker=none&zoom=11&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 12,
+                      "distance": 3.8873,
+                      "narrative": "Take left exit 3B toward Kansas onto I-635 S. Go for 3.9 mi.",
+                      "time": 212,
+                      "direction": 6,
+                      "directionName": "Southwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:03:32",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 39.189919999999965,
+                          "lng": -94.61093000000055
+                      },
+                      "turnType": 15,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-635",
+                          "Harry Darby Memorial Hwy",
+                          "US-69"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=39.189919999999965,-94.61093000000055|marker-13||39.15392999999999,-94.6509100000006|marker-14||&center=39.17192499999997,-94.63092000000057&defaultMarker=none&zoom=11&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 13,
+                      "distance": 3.919,
+                      "narrative": "Continue on I-635 S (Harry Darby Memorial Hwy). Go for 3.9 mi.",
+                      "time": 210,
+                      "direction": 6,
+                      "directionName": "Southwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:03:30",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 39.15392999999999,
+                          "lng": -94.6509100000006
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-635",
+                          "Harry Darby Memorial Hwy",
+                          "KS-5"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=39.15392999999999,-94.6509100000006|marker-14||39.10925999999998,-94.68146000000064|marker-15||&center=39.13159499999998,-94.66618500000061&defaultMarker=none&zoom=11&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 14,
+                      "distance": 51.1382,
+                      "narrative": "Take exit 4B toward US-24 W/US-40 W/Topeka onto I-70 W (Kansas Tpke). Go for 51.1 mi.",
+                      "time": 2475,
+                      "direction": 7,
+                      "directionName": "West",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:41:15",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 39.10925999999998,
+                          "lng": -94.68146000000064
+                      },
+                      "turnType": 14,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-70",
+                          "US-24",
+                          "US-40",
+                          "Kansas Tpke"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=39.10925999999998,-94.68146000000064|marker-15||39.031780000000104,-95.58511000000043|marker-16||&center=39.070520000000045,-95.13328500000054&defaultMarker=none&zoom=7&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 15,
+                      "distance": 6.6431,
+                      "narrative": "Take the left exit toward Kansas Turnpike South/I-335 S/South Topeka/Wichita onto I-470 W (Kansas Tpke). Go for 6.6 mi.",
+                      "time": 325,
+                      "direction": 7,
+                      "directionName": "West",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:05:25",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 39.031780000000104,
+                          "lng": -95.58511000000043
+                      },
+                      "turnType": 15,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-470",
+                          "Kansas Tpke"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=39.031780000000104,-95.58511000000043|marker-16||38.991690000000084,-95.6900800000004|marker-17||&center=39.011735000000094,-95.63759500000042&defaultMarker=none&zoom=10&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 16,
+                      "distance": 50.6623,
+                      "narrative": "Continue on I-335 S (Kansas Tpke) toward Kansas Turnpike South/Wichita. Go for 50.7 mi.",
+                      "time": 2467,
+                      "direction": 6,
+                      "directionName": "Southwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:41:07",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 38.991690000000084,
+                          "lng": -95.6900800000004
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-335",
+                          "Kansas Tpke"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=38.991690000000084,-95.6900800000004|marker-17||38.410750000000114,-96.24065000000063|marker-18||&center=38.7012200000001,-95.96536500000052&defaultMarker=none&zoom=7&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 17,
+                      "distance": 74.4191,
+                      "narrative": "Continue on I-35 S (Kansas Tpke). Go for 74.4 mi.",
+                      "time": 3608,
+                      "direction": 6,
+                      "directionName": "Southwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "01:00:08",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 38.410750000000114,
+                          "lng": -96.24065000000063
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-35",
+                          "Kansas Tpke"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=38.410750000000114,-96.24065000000063|marker-18||37.68315000000013,-97.18676000000069|marker-19||&center=38.04695000000012,-96.71370500000066&defaultMarker=none&zoom=6&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 18,
+                      "distance": 2.7079,
+                      "narrative": "Take exit 53A toward US-54 W/US-400 W onto US-54. Go for 2.7 mi.",
+                      "time": 153,
+                      "direction": 7,
+                      "directionName": "West",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:02:33",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 37.68315000000013,
+                          "lng": -97.18676000000069
+                      },
+                      "turnType": 14,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "US-54",
+                          "E Kellogg Ave",
+                          "US-400"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=37.68315000000013,-97.18676000000069|marker-19||37.6794800000001,-97.2345200000007|marker-20||&center=37.68131500000011,-97.2106400000007&defaultMarker=none&zoom=11&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 19,
+                      "distance": 221.8805,
+                      "narrative": "Continue on US-54 W/US-400 W (E Kellogg Ave). Go for 222 mi.",
+                      "time": 13020,
+                      "direction": 7,
+                      "directionName": "West",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "03:37:00",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 37.6794800000001,
+                          "lng": -97.2345200000007
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "US-54",
+                          "US-400",
+                          "E Kellogg Ave",
+                          "W Kellogg Ave",
+                          "W Kellogg St",
+                          "W US-54",
+                          "W US Highway 54",
+                          "KS-14",
+                          "E US Highway 54",
+                          "E US-54",
+                          "E D Ave",
+                          "W D Ave",
+                          "W Highway 54",
+                          "E 1st St",
+                          "W 1st St",
+                          "D Ave",
+                          "54 Hwy",
+                          "E 54 Hwy",
+                          "W 54 Hwy",
+                          "E Kansas Ave",
+                          "W Kansas Ave",
+                          "US Highway 54",
+                          "E Railroad St",
+                          "KS-34",
+                          "W Railroad St",
+                          "E Front St",
+                          "W Front St",
+                          "N Rd",
+                          "Road N",
+                          "US-160",
+                          "E Carthage St",
+                          "Carthage St",
+                          "W Carthage St",
+                          "Highway 54",
+                          "E Pancake Blvd",
+                          "W Pancake Blvd"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=37.6794800000001,-97.2345200000007|marker-20||36.9981499999994,-100.99684000000073|marker-21||&center=37.33881499999975,-99.11568000000071&defaultMarker=none&zoom=5&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 20,
+                      "distance": 33.6982,
+                      "narrative": "Continue on US-54 W. Go for 33.7 mi.",
+                      "time": 1913,
+                      "direction": 6,
+                      "directionName": "Southwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:31:53",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 36.9981499999994,
+                          "lng": -100.99684000000073
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "US-54",
+                          "US-64",
+                          "N Clarence St",
+                          "E Highway 54",
+                          "Highway 54",
+                          "S Clarence St",
+                          "W Highway 54",
+                          "NE Highway 54"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=36.9981499999994,-100.99684000000073|marker-21||36.689469999999446,-101.46654000000088|marker-22||&center=36.84380999999942,-101.23169000000081&defaultMarker=none&zoom=7&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 21,
+                      "distance": 1.3173,
+                      "narrative": "Continue on E Highway 54 (US-54). Go for 1.3 mi.",
+                      "time": 194,
+                      "direction": 6,
+                      "directionName": "Southwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:03:14",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 36.689469999999446,
+                          "lng": -101.46654000000088
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "US-54",
+                          "E Highway 54",
+                          "NE Highway 54",
+                          "US-412",
+                          "OK-3",
+                          "OK-136",
+                          "SE 2nd St"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=36.689469999999446,-101.46654000000088|marker-22||36.677549999999464,-101.48158000000085|marker-23||&center=36.68350999999946,-101.47406000000086&defaultMarker=none&zoom=12&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 22,
+                      "distance": 21.0738,
+                      "narrative": "Continue on SW 2nd St (US-54). Go for 21.1 mi.",
+                      "time": 1245,
+                      "direction": 6,
+                      "directionName": "Southwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:20:45",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 36.677549999999464,
+                          "lng": -101.48158000000085
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "US-54",
+                          "SW 2nd St",
+                          "W Highway 54",
+                          "SW Highway 54",
+                          "3rd St",
+                          "W US-54",
+                          "South St",
+                          "E Highway 54"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=36.677549999999464,-101.48158000000085|marker-23||36.49987999999942,-101.78780000000086|marker-24||&center=36.58871499999944,-101.63469000000086&defaultMarker=none&zoom=8&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 23,
+                      "distance": 51.2557,
+                      "narrative": "Continue on US Highway 54 (US-54). Go for 51.3 mi.",
+                      "time": 2948,
+                      "direction": 6,
+                      "directionName": "Southwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:49:08",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 36.49987999999942,
+                          "lng": -101.78780000000086
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "US-54",
+                          "US Highway 54",
+                          "E Texas Ave",
+                          "W Texas Ave",
+                          "FM-807",
+                          "FM 807",
+                          "Highway 54 E",
+                          "Liberal St",
+                          "US-87-BL",
+                          "Denver Ave"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=36.49987999999942,-101.78780000000086|marker-24||36.05931999999944,-102.52192000000092|marker-25||&center=36.279599999999434,-102.1548600000009&defaultMarker=none&zoom=7&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 24,
+                      "distance": 40.8937,
+                      "narrative": "Turn right onto E 7th St (US-54 W). Go for 40.9 mi.",
+                      "time": 2260,
+                      "direction": 6,
+                      "directionName": "Southwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:37:40",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 36.05931999999944,
+                          "lng": -102.52192000000092
+                      },
+                      "turnType": 2,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "US-54",
+                          "E 7th St",
+                          "W 7th St",
+                          "US Highway 54"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=36.05931999999944,-102.52192000000092|marker-25||35.651069999999486,-103.04154000000085|marker-26||&center=35.85519499999946,-102.78173000000089&defaultMarker=none&zoom=7&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 25,
+                      "distance": 44.8077,
+                      "narrative": "Continue on US-54. Go for 44.8 mi.",
+                      "time": 2555,
+                      "direction": 6,
+                      "directionName": "Southwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:42:35",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 35.651069999999486,
+                          "lng": -103.04154000000085
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "US-54",
+                          "Bell St",
+                          "N US-54",
+                          "S US Highwa 54",
+                          "S US-54",
+                          "Mesalands Scenic Bywy",
+                          "State Highway 54"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=35.651069999999486,-103.04154000000085|marker-26||35.22637999999944,-103.61379000000082|marker-27||&center=35.438724999999465,-103.32766500000083&defaultMarker=none&zoom=7&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 26,
+                      "distance": 3.9078,
+                      "narrative": "Turn left onto Quay Road ai (NM-286). Go for 3.9 mi.",
+                      "time": 283,
+                      "direction": 4,
+                      "directionName": "South",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:04:43",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 35.22637999999944,
+                          "lng": -103.61379000000082
+                      },
+                      "turnType": 6,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "NM-286",
+                          "Quay Road ai"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=35.22637999999944,-103.61379000000082|marker-27||35.17324999999945,-103.61904000000081|marker-28||&center=35.19981499999945,-103.61641500000081&defaultMarker=none&zoom=11&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 27,
+                      "distance": 62.1334,
+                      "narrative": "Turn right and take ramp onto I-40 W (Mesalands Scenic Bywy). Go for 62.1 mi.",
+                      "time": 3123,
+                      "direction": 7,
+                      "directionName": "West",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:52:03",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 35.17324999999945,
+                          "lng": -103.61904000000081
+                      },
+                      "turnType": 12,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-40",
+                          "Mesalands Scenic Bywy",
+                          "Historic Route 66",
+                          "Route 66",
+                          "US-54",
+                          "US-84"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=35.17324999999945,-103.61904000000081|marker-28||34.94673999999946,-104.64700000000084|marker-29||&center=35.059994999999454,-104.13302000000083&defaultMarker=none&zoom=7&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 28,
+                      "distance": 0.0907,
+                      "narrative": "Continue on I-40 W. Go for 479 ft.",
+                      "time": 5,
+                      "direction": 7,
+                      "directionName": "West",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:00:05",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 34.94673999999946,
+                          "lng": -104.64700000000084
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-40 W",
+                          "US-84 N"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=34.94673999999946,-104.64700000000084|marker-29||34.946459999999455,-104.64856000000083|marker-30||&center=34.94659999999946,-104.64778000000084&defaultMarker=none&zoom=16&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 29,
+                      "distance": 1.4111,
+                      "narrative": "Continue on I-40 W. Go for 1.4 mi.",
+                      "time": 72,
+                      "direction": 7,
+                      "directionName": "West",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:01:12",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 34.946459999999455,
+                          "lng": -104.64856000000083
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-40",
+                          "US-84"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=34.946459999999455,-104.64856000000083|marker-30||34.944749999999466,-104.67274000000084|marker-31||&center=34.94560499999946,-104.66065000000083&defaultMarker=none&zoom=12&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 30,
+                      "distance": 1.6504,
+                      "narrative": "Take exit 275 toward Santa Rosa onto I-40-BL (Will Rogers Dr). Go for 1.7 mi.",
+                      "time": 205,
+                      "direction": 7,
+                      "directionName": "West",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:03:25",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 34.944749999999466,
+                          "lng": -104.67274000000084
+                      },
+                      "turnType": 14,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-40-BL",
+                          "US-54",
+                          "Will Rogers Dr",
+                          "Historic Route 66",
+                          "Mesalands Scenic Bywy",
+                          "US-84",
+                          "Parker Ave",
+                          "NM-91"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=34.944749999999466,-104.67274000000084|marker-31||34.93826999999943,-104.69347000000091|marker-32||&center=34.94150999999945,-104.68310500000088&defaultMarker=none&zoom=12&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 31,
+                      "distance": 37.7924,
+                      "narrative": "Turn left onto Highway 54 (US-54). Go for 37.8 mi.",
+                      "time": 2115,
+                      "direction": 6,
+                      "directionName": "Southwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:35:15",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 34.93826999999943,
+                          "lng": -104.69347000000091
+                      },
+                      "turnType": 6,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "US-54",
+                          "Highway 54",
+                          "US Highway 54",
+                          "Mesalands Scenic Bywy",
+                          "US-60"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=34.93826999999943,-104.69347000000091|marker-32||34.59324999999944,-105.18889000000092|marker-33||&center=34.76575999999943,-104.94118000000091&defaultMarker=none&zoom=7&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 32,
+                      "distance": 3.9084,
+                      "narrative": "Turn right onto E 8th St (US-54/US-60/US-285). Go for 3.9 mi.",
+                      "time": 309,
+                      "direction": 7,
+                      "directionName": "West",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:05:09",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 34.59324999999944,
+                          "lng": -105.18889000000092
+                      },
+                      "turnType": 2,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "US-54",
+                          "US-60",
+                          "US-285",
+                          "E 8th St",
+                          "W 8th St",
+                          "W US Highway 60"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=34.59324999999944,-105.18889000000092|marker-33||34.58792999999947,-105.25007000000093|marker-34||&center=34.59058999999945,-105.21948000000093&defaultMarker=none&zoom=11&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 33,
+                      "distance": 131.863,
+                      "narrative": "Turn left onto S US Highway 54 (US-54 W). Go for 132 mi.",
+                      "time": 7327,
+                      "direction": 6,
+                      "directionName": "Southwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "02:02:07",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 34.58792999999947,
+                          "lng": -105.25007000000093
+                      },
+                      "turnType": 6,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "US-54",
+                          "S US Highway 54",
+                          "US Highway 54",
+                          "Corona Main",
+                          "Corona Main St",
+                          "Main St",
+                          "Central Ave",
+                          "E Ave",
+                          "St Francis Dr",
+                          "4th St",
+                          "US-70",
+                          "Highway 54 70"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=34.58792999999947,-105.25007000000093|marker-34||32.94321999999949,-105.9676300000011|marker-35||&center=33.76557499999948,-105.60885000000101&defaultMarker=none&zoom=6&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 34,
+                      "distance": 5.4152,
+                      "narrative": "Turn right onto Charlie T Lee MRR (US-54 S/US-70 W) toward RELIEF ROUTE/Las Cruces/El Paso. Go for 5.4 mi.",
+                      "time": 373,
+                      "direction": 4,
+                      "directionName": "South",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:06:13",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 32.94321999999949,
+                          "lng": -105.9676300000011
+                      },
+                      "turnType": 2,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "US-54",
+                          "US-70",
+                          "Charlie T Lee MRR"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=32.94321999999949,-105.9676300000011|marker-35||32.86940999999947,-105.96874000000118|marker-36||&center=32.90631499999948,-105.96818500000114&defaultMarker=none&zoom=10&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 35,
+                      "distance": 64.4685,
+                      "narrative": "Turn left onto Highway 54 S (US-54 S) toward El Paso. Go for 64.5 mi.",
+                      "time": 3329,
+                      "direction": 4,
+                      "directionName": "South",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:55:29",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 32.86940999999947,
+                          "lng": -105.96874000000118
+                      },
+                      "turnType": 6,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "US-54",
+                          "Charlie T Lee MRR",
+                          "US-70",
+                          "Highway 54 S",
+                          "US-54 S",
+                          "Main St",
+                          "Highway 54",
+                          "US Highway 54"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=32.86940999999947,-105.96874000000118|marker-36||32.001439999999405,-106.32681000000137|marker-37||&center=32.43542499999944,-106.14777500000127&defaultMarker=none&zoom=7&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 36,
+                      "distance": 6.3256,
+                      "narrative": "Continue on US-54 S. Go for 6.3 mi.",
+                      "time": 377,
+                      "direction": 6,
+                      "directionName": "Southwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:06:17",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 32.001439999999405,
+                          "lng": -106.32681000000137
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "US-54",
+                          "Gateway Blvd S",
+                          "Patriot Fwy"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=32.001439999999405,-106.32681000000137|marker-37||31.940819999999416,-106.40762000000139|marker-38||&center=31.971129999999413,-106.36721500000138&defaultMarker=none&zoom=10&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 37,
+                      "distance": 1.3366,
+                      "narrative": "Continue on Gateway Blvd S (US-54 W). Go for 1.3 mi.",
+                      "time": 112,
+                      "direction": 6,
+                      "directionName": "Southwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:01:52",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 31.940819999999416,
+                          "lng": -106.40762000000139
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "US-54",
+                          "Gateway Blvd S",
+                          "Patriot Fwy",
+                          "Gateway Blvd"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=31.940819999999416,-106.40762000000139|marker-38||31.93014999999942,-106.42655000000141|marker-39||&center=31.935484999999417,-106.4170850000014&defaultMarker=none&zoom=12&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 38,
+                      "distance": 9.4163,
+                      "narrative": "Take left ramp onto US-54 W (Patriot Fwy). Go for 9.4 mi.",
+                      "time": 519,
+                      "direction": 4,
+                      "directionName": "South",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:08:39",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 31.93014999999942,
+                          "lng": -106.42655000000141
+                      },
+                      "turnType": 13,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "US-54",
+                          "Patriot Fwy"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=31.93014999999942,-106.42655000000141|marker-39||31.801329999999414,-106.44165000000122|marker-40||&center=31.865739999999416,-106.43410000000131&defaultMarker=none&zoom=9&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 39,
+                      "distance": 1.3627,
+                      "narrative": "Take exit 21B toward I-10 W/Las Cruces/US-180 W onto US-54 S. Go for 1.4 mi.",
+                      "time": 75,
+                      "direction": 4,
+                      "directionName": "South",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:01:15",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 31.801329999999414,
+                          "lng": -106.44165000000122
+                      },
+                      "turnType": 14,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "US-54 S",
+                          "Patriot Fwy"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=31.801329999999414,-106.44165000000122|marker-40||31.781619999999418,-106.44167000000128|marker-41||&center=31.791474999999416,-106.44166000000125&defaultMarker=none&zoom=12&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 40,
+                      "distance": 2.8825,
+                      "narrative": "Take ramp onto I-10 W toward US-180 W/Las Cruces. Go for 2.9 mi.",
+                      "time": 176,
+                      "direction": 7,
+                      "directionName": "West",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:02:56",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 31.781619999999418,
+                          "lng": -106.44167000000128
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "I-10",
+                          "US-180"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=31.781619999999418,-106.44167000000128|marker-41||31.76596999999943,-106.48281000000124|marker-42||&center=31.773794999999424,-106.46224000000126&defaultMarker=none&zoom=11&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 41,
+                      "distance": 0.5108,
+                      "narrative": "Take exit 19B toward Downtown/Convention Center/Tourist Information/Arts District onto E Missouri Ave. Go for 0.5 mi.",
+                      "time": 87,
+                      "direction": 6,
+                      "directionName": "Southwest",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:01:27",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 31.76596999999943,
+                          "lng": -106.48281000000124
+                      },
+                      "turnType": 14,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "E Missouri Ave"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=31.76596999999943,-106.48281000000124|marker-42||31.76173999999943,-106.48974000000123|marker-43||&center=31.76385499999943,-106.48627500000123&defaultMarker=none&zoom=13&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 42,
+                      "distance": 0.2218,
+                      "narrative": "Turn left onto N Mesa St (TX-20). Go for 0.2 mi.",
+                      "time": 54,
+                      "direction": 5,
+                      "directionName": "Southeast",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:00:54",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 31.76173999999943,
+                          "lng": -106.48974000000123
+                      },
+                      "turnType": 6,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": [
+                          "TX-20",
+                          "N Mesa St",
+                          "Mesa St"
+                      ],
+                      "mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=l23BbM3SXPCWvd9YSH7d5LUw4v8uGDqb&size=225,160&locations=31.76173999999943,-106.48974000000123|marker-43||31.759159999999433,-106.48749000000124|marker-44||&center=31.76044999999943,-106.48861500000123&defaultMarker=none&zoom=15&session=AFcB_v___wEAAQC7AQAAeNpj2M3IwMjEwMDAnpFalGqVnPvrsKgMkMvwR-7pR64ji9baOun9iT8MpRmwAJjGE1suSID4U5m21jG5dbuZKE6ZGuYKpBWANAMOMPsbr8h2TiBDQspQ1RIsxIJFWQOE4oJzHGAyDiwgLgcQGzCoNEBYICOgOhgUwKTQFKZALxeQHFOAANMqFSaGBpdJLC4CHAwsISlhTl6hglrNIs7eno6rNDzSlEJnGDCcElmpOEFlhUOAg2sjxyIfoEVMAZ4aDB6ajIwcDKwejKxMHgFMLA0LgowEHFkYlJqZuDRFOlm0GlsZmBqaWsCWnmFiDRQFOogFiAUYA4AiCWDXHHBQaGVgYAayQw0FFIDSAkoTgRw2kJuZOELVPCcKKKlECDqIeDUwMTglsi7QUHBiYGJhCGBapcHA0Nqj0MDgJQhUrHFGAQD9L01NZxJCYQ:car"
+                  },
+                  {
+                      "index": 43,
+                      "distance": 0,
+                      "narrative": "Arrive at N Mesa St (TX-20).",
+                      "time": 0,
+                      "direction": 0,
+                      "directionName": "None",
+                      "signs": [],
+                      "maneuverNotes": [],
+                      "formattedTime": "00:00:00",
+                      "transportMode": "car",
+                      "startPoint": {
+                          "lat": 31.759159999999433,
+                          "lng": -106.48749000000124
+                      },
+                      "turnType": 0,
+                      "attributes": 0,
+                      "iconUrl": "",
+                      "streets": []
+                  }
+              ]
+          }
+      ],
+      "options": {
+          "routeType": "FASTEST",
+          "narrativeType": "text",
+          "enhancedNarrative": false,
+          "walkingSpeed": -1,
+          "highwayEfficiency": 22,
+          "avoids": false,
+          "generalize": -1,
+          "shapeFormat": "raw",
+          "unit": "M",
+          "locale": "en_US",
+          "useTraffic": false,
+          "timeType": 0,
+          "dateType": 0,
+          "doReverseGeocode": true,
+          "manMaps": true,
+          "sideOfStreetDisplay": true
+      },
+      "boundingBox": {
+          "ul": {
+              "lat": 44.97902,
+              "lng": -106.48974000000123
+          },
+          "lr": {
+              "lat": 31.759159999999433,
+              "lng": -93.24472999999972
+          }
+      },
+      "name": "US-54 and I-35",
+      "maxRoutes": "",
+      "locations": [
+          {
+              "street": "",
+              "adminArea6": "",
+              "adminArea6Type": "Neighborhood",
+              "adminArea5": "Minneapolis",
+              "adminArea5Type": "City",
+              "adminArea4": "Hennepin",
+              "adminArea4Type": "County",
+              "adminArea3": "MN",
+              "adminArea3Type": "State",
+              "adminArea1": "US",
+              "adminArea1Type": "Country",
+              "postalCode": "",
+              "geocodeQualityCode": "A5XAX",
+              "geocodeQuality": "CITY",
+              "dragPoint": false,
+              "sideOfStreet": "N",
+              "linkId": "0",
+              "unknownInput": "",
+              "type": "s",
+              "latLng": {
+                  "lat": 44.97902,
+                  "lng": -93.26494
+              },
+              "displayLatLng": {
+                  "lat": 44.97902,
+                  "lng": -93.26494
+              },
+              "mapUrl": ""
+          },
+          {
+              "street": "",
+              "adminArea6": "",
+              "adminArea6Type": "Neighborhood",
+              "adminArea5": "El Paso",
+              "adminArea5Type": "City",
+              "adminArea4": "El Paso",
+              "adminArea4Type": "County",
+              "adminArea3": "TX",
+              "adminArea3Type": "State",
+              "adminArea1": "US",
+              "adminArea1Type": "Country",
+              "postalCode": "",
+              "geocodeQualityCode": "A5XAX",
+              "geocodeQuality": "CITY",
+              "dragPoint": false,
+              "sideOfStreet": "N",
+              "linkId": "0",
+              "unknownInput": "",
+              "type": "s",
+              "latLng": {
+                  "lat": 31.75916,
+                  "lng": -106.48749
+              },
+              "displayLatLng": {
+                  "lat": 31.75916,
+                  "lng": -106.48749
+              },
+              "mapUrl": ""
+          }
+      ],
+      "locationSequence": [
+          0,
+          1
+      ]
+  },
+  "info": {
+      "statuscode": 0,
+      "copyright": {
+          "text": "© 2024 MapQuest, Inc.",
+          "imageUrl": "http://api.mqcdn.com/res/mqlogo.gif",
+          "imageAltText": "© 2024 MapQuest, Inc."
+      },
+      "messages": []
+  }
+}

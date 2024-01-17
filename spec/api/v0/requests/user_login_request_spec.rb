@@ -5,13 +5,7 @@ RSpec.describe "Login a User", type: :request do
   describe "JSON User Login Return with API Key" do
     before :each do
       instantiate_chisP
-      
-      user_info = {
-                  "email": "chisPwants2code@goodgirl.com",
-                  "password": "dogeatworld",
-                }
-  
-      post "/api/v0/sessions", params: user_info
+      login_chisP
   
       expect(response).to be_successful
       expect(response.status).to eq(200)

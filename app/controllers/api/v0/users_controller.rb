@@ -26,10 +26,4 @@ class Api::V0::UsersController < ApplicationController
   def user_params
     params.permit(:email, :password, :password_confirmation)
   end
-
-  def error_response(message, status)
-    render json: ErrorSerializer.new(ErrorMessage.new(message, status))
-    .serialize_json, status: :unprocessable_entity
-  end
-  
 end
